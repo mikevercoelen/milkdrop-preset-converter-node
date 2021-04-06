@@ -39,14 +39,6 @@ const config = {
         },
       },
       {
-        test: /(\.js)$/,
-        exclude: /node_modules|lib/,
-        use: {
-          loader: "eslint-loader",
-        },
-        enforce: "pre",
-      },
-      {
         test: /\.node$/,
         loader: "node-loader",
       },
